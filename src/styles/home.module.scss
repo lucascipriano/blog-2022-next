@@ -1,0 +1,48 @@
+.container{
+  width: 70%;
+  max-width: 75rem;//1200px 
+  margin-left: auto;
+  margin-right: auto;
+  height: calc(100vh - 7.5rem); //120
+}
+
+
+.center{
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+  .roundedFull {
+    border-radius: 50%;
+  }
+
+  .text{
+    text-align: center;
+
+    h1{
+      font-weight: 800;
+      font-size: 36px;
+      line-height: 150%;
+    }
+    h2{
+      font-weight: 200;
+      font-size: 36px;
+      line-height: 150%;
+    }
+  }
+  .icons{
+    a{
+      padding-left: 1rem;
+    }
+  }
+}
+
+.footer{
+  grid-area: footer;
+  text-align: center;
+  color: var(--green);
+
+}

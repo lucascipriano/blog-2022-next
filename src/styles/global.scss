@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --green: #00E3A5;
+  --links:  #DADADB;
+  --background: #1D1E20;
+
+  --backgroundTransparent: rgba(217, 217, 217, 0.3);
+}
+
+body{
+  background-color: var(--background);
+  color: #FFF;
+  
+}
+
+body, input, textarea, select, button{
+  font: 400 1rem 'Roboto', sans-serif;
+}
+
+button{
+  cursor: pointer;
+}
+
+a{
+  color: var(--green);
+  text-decoration: none;
+}

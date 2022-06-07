@@ -1,0 +1,22 @@
+.container{
+  width: 90%;
+  max-width: 60rem;//1200px 
+  margin-left: auto;
+  margin-right: auto;
+
+  header{
+    margin-top: 3rem;
+
+    h1{
+      margin: 2rem 0;
+      color: var(--green);
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 150%;
+    }
+    p{
+      margin: 2rem 0;
+
+    }
+  }
+}

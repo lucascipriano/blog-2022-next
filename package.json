@@ -1,0 +1,29 @@
+{
+  "name": "blog-pessoal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "highlight.js": "^11.5.1",
+    "markdown-it": "^13.0.1",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-markdown": "^8.0.3",
+    "sass": "^1.52.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "@types/react": "^18.0.12",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "slice-machine-ui": "^0.3.8",
+    "typescript": "^4.7.3"
+  }
+}

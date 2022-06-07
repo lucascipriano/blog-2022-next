@@ -1,0 +1,114 @@
+{
+  "slices": {
+    "components": {
+      "post": {
+        "library": "slices",
+        "id": "post",
+        "name": "Post",
+        "description": "Post",
+        "model": {
+          "id": "post",
+          "type": "SharedSlice",
+          "name": "Post",
+          "description": "Post",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Post",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {
+                "": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "post",
+            "items": [
+              {
+                "": [
+                  {
+                    "type": "paragraph",
+                    "text": "Cillum et dolore exercitation culpa exercitation irure commodo nisi adipisicing. Aliquip nostrud anim ullamco veniam culpa aliquip non non aute laborum.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "": [
+                  {
+                    "type": "paragraph",
+                    "text": "Sit exercitation fugiat pariatur cupidatat officia velit magna minim et amet esse voluptate dolor. Cillum ipsum ipsum ut consectetur.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "": [
+                  {
+                    "type": "paragraph",
+                    "text": "Sunt sit elit sint et eiusmod labore.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Maximize granular niches",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Sit ex id aute enim est ullamco duis aliquip exercitation et.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}
