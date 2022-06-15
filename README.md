@@ -6,6 +6,7 @@ Comecei o projeto pensando em utilizar o Strapi, porém após 2 dias procruando 
 
 Irei criar um outro layout e possívemente consumir outro headless.
 
+Update: Repo aberto para caso alguém tenha alguma dúvida de como consumir o Strapi.
 
 ![](/print/2022-06-15_00-43.png)
 ![](/print/2022-06-15_00-49.png)
