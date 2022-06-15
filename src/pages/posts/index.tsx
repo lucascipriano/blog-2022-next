@@ -1,9 +1,7 @@
-import axios from "axios";
-import Head from "next/head";
-import Link from "next/link";
-
-
-import styles from "./posts.module.scss";
+import axios from 'axios';
+import Head from 'next/head';
+import Link from 'next/link';
+import styles from './posts.module.scss';
 
 export default function Blog({ posts }) {
   return (
@@ -15,11 +13,11 @@ export default function Blog({ posts }) {
       <main className={styles.container}>
         <h1>Posts</h1>
 
-        {posts.map((post) => {
+        {posts.map((post): JSX.Element => {
           return (
             <>
-              <div className={styles.posts}>
-                <Link href={`/posts/${post.id}`}>
+              <div className={styles.posts} key={post.id}>
+                <Link href={`/posts/${post.id}`} >
                   <div className={styles.body}>
                     <div className={styles.text}>
                       <h2>{post.attributes.title}</h2>
@@ -38,7 +36,7 @@ export default function Blog({ posts }) {
 
 export async function getServerSideProps() {
   const postsRes = await axios.get("http://localhost:1337/api/posts");
-  // console.log(postsRes.data.data);
+  console.log(postsRes.data.data);
 
   return {
     props: {

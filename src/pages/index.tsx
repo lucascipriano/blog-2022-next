@@ -24,7 +24,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer className={styles.footer}><p>© 2022 <span>Lucas Cipriano</span> Powered by <span>OWL7</span></p></footer>
+      <footer className={styles.footer}><p>© 2022 <span>Lucas Cipriano</span> Powered by <span>Lucas Cipriano</span></p></footer>
     </>
   )
 }
